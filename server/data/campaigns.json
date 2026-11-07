@@ -1,0 +1,62 @@
+[
+  {
+    "id": "camp-q3-vip-rescue",
+    "name": "Q3 High-Value VIP Outreach",
+    "createdAt": "2026-08-15",
+    "targetSegmentId": "seg-high-value-strained",
+    "targetTier": "Critical",
+    "offer": {
+      "id": "offer-vip-service",
+      "name": "Priority Care & Network Guarantee",
+      "category": "VIP Care",
+      "monthlyDiscountGbp": 0,
+      "durationMonths": 6,
+      "oneOffCostGbp": 15,
+      "contractExtensionMonths": 0,
+      "expectedChurnReductionPct": 28,
+      "description": "Dedicated account manager line, free router upgrade, £15 goodwill credit."
+    },
+    "totalTargeted": 240,
+    "treatedCount": 216,
+    "controlCount": 24,
+    "status": "Active",
+    "actualTreatedChurnRate": 0.18,
+    "actualControlChurnRate": 0.38,
+    "upliftPercent": 20,
+    "netRevenueSavedGbp": 34560,
+    "campaignCostGbp": 3240,
+    "roiMultiplier": 10.6,
+    "customerIds": [],
+    "controlIds": []
+  },
+  {
+    "id": "camp-q3-rolling-renewal",
+    "name": "Rolling Contract 12M Lock-In",
+    "createdAt": "2026-09-01",
+    "targetSegmentId": "seg-rolling-bargain-hunters",
+    "targetTier": "High",
+    "offer": {
+      "id": "offer-loyalty-15",
+      "name": "15% Loyalty Discount (12M Commit)",
+      "category": "Discount",
+      "monthlyDiscountGbp": 8.5,
+      "durationMonths": 12,
+      "oneOffCostGbp": 0,
+      "contractExtensionMonths": 12,
+      "expectedChurnReductionPct": 35,
+      "description": "15% off monthly bill for 12 months with contract re-commitment."
+    },
+    "totalTargeted": 420,
+    "treatedCount": 378,
+    "controlCount": 42,
+    "status": "Active",
+    "actualTreatedChurnRate": 0.22,
+    "actualControlChurnRate": 0.41,
+    "upliftPercent": 19,
+    "netRevenueSavedGbp": 41250,
+    "campaignCostGbp": 6420,
+    "roiMultiplier": 6.4,
+    "customerIds": [],
+    "controlIds": []
+  }
+]
